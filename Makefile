@@ -1,5 +1,5 @@
 GIT_COMMITSHA = $(shell git rev-parse HEAD)
-IMAGE_NAME = "stripe/stripe-mock"
+IMAGE_NAME = "ghcr.io/masuyama/stripe-mock"
 
 all: test vet lint check-gofmt build
 
