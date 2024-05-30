@@ -3585,6 +3585,9 @@
       "pending_invoice_item_interval": null,
       "pending_setup_intent": null,
       "pending_update": null,
+      "plan": {
+        "id": "plan_1O8RSWF2YyVaukglxpanESnZ"
+      },
       "schedule": null,
       "start_date": 1234567890,
       "status": "active",
