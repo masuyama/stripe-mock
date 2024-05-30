@@ -3140,6 +3140,7 @@
         "url": "/v1/subscription_items?subscription=sub_1O8RSZF2YyVaukglVKx1TZtm"
       },
       "latest_invoice": null,
+      "latest_invoide_id": "in_1O8RSZF2YyVaukgl1ZQ5Z6Zb",
       "livemode": false,
       "metadata": {},
       "next_pending_invoice_item_invoice": 1234567890,
