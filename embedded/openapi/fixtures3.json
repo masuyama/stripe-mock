@@ -3254,6 +3254,9 @@
           ],
           "metadata": {},
           "on_behalf_of": null,
+          "plans": [
+            "plan_1O8RSWF2YyVaukglxpanESnZ"
+          ],
           "proration_behavior": "create_prorations",
           "start_date": 1699638429,
           "transfer_data": null,
@@ -3263,7 +3266,7 @@
       "released_at": 1234567890,
       "released_subscription": null,
       "status": "not_started",
-      "subscription": null,
+      "subscription": "sub_1O8RSbF2YyVaukglGpDeEUpM",
       "test_clock": null
     },
     "tax.calculation": {
