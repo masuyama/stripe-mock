@@ -3155,7 +3155,8 @@
       "pending_setup_intent": null,
       "pending_update": null,
       "plan": {
-        "id": "plan_1O8RSWF2YyVaukglxpanESnZ"
+        "id": "plan_1O8RSWF2YyVaukglxpanESnZ",
+        "amount": 2000
       },
       "schedule": null,
       "start_date": 1234567890,
