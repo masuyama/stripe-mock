@@ -16,7 +16,7 @@
         "card_payments": "active",
         "transfers": "active"
       },
-      "charges_enabled": false,
+      "charges_enabled": true,
       "controller": {
         "type": "account"
       },
@@ -24,7 +24,7 @@
       "created": 1234567890,
       "default_currency": "usd",
       "details_submitted": false,
-      "email": "site@stripe.com",
+      "email": "site223@stripe.com",
       "external_accounts": {
         "data": [],
         "has_more": false,
@@ -42,6 +42,26 @@
         "pending_verification": []
       },
       "id": "acct_1O8RSFF2YyVaukgl",
+      "legal_entity": {
+        "address_kana": "address1",
+        "address_kanji": "アドレス",
+        "business_name": "name1",
+        "business_name_kana": "ネーム",
+        "business_name_kanji": "名前",
+        "business_tax_id_provided": false,
+        "first_name": "Jane",
+        "first_name_kana": "ミョウジ",
+        "first_name_kanji": "苗字",
+        "last_name_kana": "ナマエ",
+        "last_name_kanji": "名前",
+        "type": "company",
+        "status": "verified",
+        "verification": {
+          "document": "document",
+          "document_back": "document_back",
+          "status": "verified"
+        }
+      },
       "metadata": {},
       "object": "account",
       "payouts_enabled": false,
@@ -1957,6 +1977,37 @@
       },
       "quantity": 1
     },
+    "legal_entity": {
+      "address_kana": "address",
+      "address_kanji": "アドレス",
+      "business_name": "name",
+      "business_name_kana": "ネーム",
+      "business_name_kanji": "名前",
+      "business_tax_id_provided": false,
+      "first_name": "Jane",
+      "first_name_kana": "ミョウジ",
+      "first_name_kanji": "苗字",
+      "last_name_kana": "ナマエ",
+      "last_name_kanji": "名前",
+      "type": "company",
+      "verification": {
+        "additional_document": {
+          "back": null,
+          "details": null,
+          "details_code": null,
+          "front": null
+        },
+        "details": null,
+        "details_code": null,
+        "document": {
+          "back": null,
+          "details": null,
+          "details_code": null,
+          "front": null
+        },
+        "status": "unverified"
+      }
+    },
     "line_item": {
       "amount": 1000,
       "amount_excluding_tax": 1000,
@@ -2063,7 +2114,7 @@
       "next_action": null,
       "object": "payment_intent",
       "on_behalf_of": null,
-      "payment_method": null,
+      "payment_method": "card",
       "payment_method_configuration_details": null,
       "payment_method_options": {},
       "payment_method_types": [
@@ -2074,11 +2125,24 @@
       "review": null,
       "setup_future_usage": null,
       "shipping": null,
+      "source": null,
       "statement_descriptor": null,
       "statement_descriptor_suffix": null,
       "status": "requires_payment_method",
       "transfer_data": null,
-      "transfer_group": null
+      "transfer_group": null,
+      "charges": {
+        "data": [
+          {
+            "id": "ch_1O8RSWF2YyVaukgl8ZQ7ZQ7Z",
+            "amount": 1099
+          }
+        ],
+        "total_count": 1,
+        "has_more": false,
+        "object": "list",
+        "url": "/v1/charges?payment_intent=pi_1O8RSWF2YyVaukgl8256gQPv"
+      }
     },
     "payment_link": {
       "active": true,
@@ -2382,7 +2446,7 @@
         "card_payments": "active",
         "transfers": "active"
       },
-      "charges_enabled": false,
+      "charges_enabled": true,
       "controller": {
         "type": "account"
       },
